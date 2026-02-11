@@ -11,7 +11,7 @@ A mobile-first Valentine landing page with a premium background, smooth animatio
 - Reduced-motion support
 
 ## 🚀 Live Demo
-- https://youlikome.github.io/valentine-page
+- [https://youlikome.github.io/valentine-page(https://youlikome.github.io/valentine-page/)
 
 ## 🛠️ Run Locally
 ```bash
