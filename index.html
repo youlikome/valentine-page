@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Be My Valentine? 💖</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- background decoration -->
+  <div class="bg" aria-hidden="true">
+    <div class="glow g1"></div>
+    <div class="glow g2"></div>
+    <div class="glow g3"></div>
+
+    <div class="hearts">
+      <span>❤</span><span>❤</span><span>❤</span><span>❤</span><span>❤</span>
+      <span>❤</span><span>❤</span><span>❤</span><span>❤</span><span>❤</span>
+      <span>❤</span><span>❤</span>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <section class="card" aria-label="Valentine card">
+      <div class="badge" aria-hidden="true">💌</div>
+
+      <h1>Will you be my Valentine?</h1>
+      <p class="sub typewriter" aria-label="No pressure… but I already picked our playlist and snacks.">
+        <span class="tw">No pressure… but I already picked our playlist and snacks 😌💗</span>
+      </p>
+
+
+      <div class="actions" role="group" aria-label="Choices">
+        <a class="btn yes" href="#yes">Yes 💘</a>
+        <a class="btn no" href="#no">No 🙃</a>
+      </div>
+
+      <p class="hint">Tip: hover the buttons ✨</p>
+      <section id="yes" class="modal" aria-label="Yes screen">
+        <div class="modal-card yes-card">
+          <!-- Confetti burst (CSS-only) -->
+          <div class="confetti" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+
+          <!-- Sparkle layer -->
+          <div class="sparkles" aria-hidden="true"></div>
+
+          <div class="big">💞</div>
+          <h2>YAY!!</h2>
+          <p class="typewriter">
+            <span class="tw">You just made my whole week. Date locked in 🤝💖</span>
+          </p>
+
+          <div class="mini">
+            <span>🍿 Movie</span>
+            <span>🍫 Snacks</span>
+            <span>🎶 Playlist</span>
+          </div>
+
+          <a class="btn back" href="#">Back</a>
+        </div>
+      </section>
+
+
+      <section id="no" class="modal" aria-label="No screen">
+        <div class="modal-card">
+          <div class="big">😤</div>
+          <h2>That’s illegal.</h2>
+          <p>Try again… the “Yes” button is right there 😈</p>
+          <a class="btn back" href="#">Back</a>
+        </div>
+      </section>
+  </main>
+
+  <footer class="foot">
+    Made with ❤️ using only HTML + CSS<br>
+    <p>&copy; 2026 <i>LIKO</i><sup>&trade;</sup></p>
+  </footer>
+</body>
+
+</html>
